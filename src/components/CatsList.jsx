@@ -21,14 +21,9 @@ function CatsList({ setSelectedCatId }) {
 
   return (
     <table>
-      <thead>
-        <tr>
-          <th colSpan="3">Cat List</th>
-        </tr>
-      </thead>
       <tbody>
         <tr>
-          <th><strong>Breed</strong></th>
+          <th><strong>Cat Breed List</strong></th>
         </tr>
         {cats.map((cat) => (
           <CatRow
