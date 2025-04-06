@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import CatsList from './components/CatsList'
-import SelectedCat from './components/SelectedCat'
+import SelectedCat from './components/SelectedCat' 
 
 function App() {
   const [selectedCatId, setSelectedCatId] = useState(null);
@@ -13,7 +13,9 @@ function App() {
       ) : (
         <CatsList setSelectedCatId={setSelectedCatId} />
       )}
+
     </>
+    
   )
 }
 

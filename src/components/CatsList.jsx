@@ -25,9 +25,9 @@ function CatsList({ setSelectedCatId }) {
         <tr>
           <th><strong>Cat Breed List</strong></th>
         </tr>
-        {cats.map((cat) => (
+        {cats.map((cat,id) => (
           <CatRow
-            key={cat.id}
+            key={id}
             cat={cat}
             setSelectedCatId={setSelectedCatId}
           />
